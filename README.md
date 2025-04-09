@@ -20,7 +20,7 @@ I have put three versions up for testing
 
 All three are made with reForge `f1.7.0-v1.10.1RC-latest-2177-g7dce877a`
 
-As Github does not allow for files of this size so I put them on my Mega:
+Github does not allow for files of this size so I put them on my Mega:
 https://mega.nz/folder/w0p2WboI#zrAJMIxECeW0ER7v3X6eLg  
 I will try to upload the minimal version to Github but I have to figure out how this LFS stuff works.
 
