@@ -31,5 +31,8 @@ This version uses the official "Windows embeddable package (64-bit)" package. Th
 extension of plugin that is available aout there.
 
 ### Step by step for the WinPython version
+[stepbystep-winpython.md](stepbystep-winpython.md)
+Same process as the previous one, but this uses the third-party WinPython portable which I saw recommended at various places. It looks like it comes with a few more modules, libs and tools,
+so maybe it is more useful for installing additional components.
 
 
