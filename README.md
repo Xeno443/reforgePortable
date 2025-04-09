@@ -1,5 +1,5 @@
 # reForge portable version experiment
-[reForge](https://github.com/Panchovix/stable-diffusion-webui-reForge) being my favorite of Stable Diffusion webUI forks but not having portable version I wanted to see 
+[reForge](https://github.com/Panchovix/stable-diffusion-webui-reForge) being my favorite of Stable Diffusion webUI fork but not having portable version I wanted to see 
 if I as a total python noob could build one, especially as [Forge](https://github.com/lllyasviel/stable-diffusion-webui-forge) and [ComfyUI](https://github.com/comfyanonymous/ComfyUI) have
 had one available for quite some time.
 
@@ -9,7 +9,7 @@ So I spent some time to figure out how the Forge portable version works, and aft
 Forge version, but there were  some collisions as as both had different python module requirements and the site-packages directory grew very large, so I tried a fresh start.
 
 During that I learned a lot of how this python pip thing works as it failed at some dependencies, which revealed that the original portable python zip version had a few files in a different
-directory than some things, most noticably the wheel build process, expected them to be. Plus I was fighting some %path% issues that also lead to a file that needed to be deleted.
+directory than some steps, most noticably the wheel build process, expected them to be. Plus I was fighting some %path% issues that also lead to a file that needed to be deleted.
 
 ### Downloads
 I have put three versions up for testing
