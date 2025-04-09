@@ -24,8 +24,9 @@ Github does not allow for files of this size so I put them on my Mega:
 https://mega.nz/folder/w0p2WboI#zrAJMIxECeW0ER7v3X6eLg  
 I will try to upload the minimal version to Github but I have to figure out how this LFS stuff works.
 
+You should of course not simply trust a random stranger on the internet about anything, so if you don't want to use the prebuild packackes I also have documented step by step how I created these: 
+
 ### Step by step for the official portable zip version
-You should of course not simply trust a random stranger on the internet about anything, so if you don't want to use the prebuild packackes I also have documented step by step how I created these here:  
 [stepbystep-pythonportable.md](stepbystep-pythonportable.md)
 This version uses the official "Windows embeddable package (64-bit)" package. This seems to be a very minimal python version. I have no experience if this will be enough for each and every possible
 extension of plugin that is available aout there.
