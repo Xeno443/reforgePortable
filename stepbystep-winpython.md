@@ -40,7 +40,10 @@ and copy them to "C:\SD\reforge-portable\system\python"
 
 ***
 ## Get run scripts
-Open the forge standalone 7zip and extract only the 3 bat files from the root into C:\SD\reforge-portable  
+- Either download the full [Forge portable zip](https://github.com/lllyasviel/stable-diffusion-webui-forge?tab=readme-ov-file#installing-forge) 
+and extract only the 3 bat files from the root
+- or download them from my github here [runscipts](runscripts/)
+Copy these three files into C:\SD\reforge-portable  
 ![webui-install-1](https://github.com/user-attachments/assets/13d732b1-767a-41bd-acde-8b49c04e8a8d)
 
 ***
