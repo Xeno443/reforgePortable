@@ -52,6 +52,8 @@ Open cmd.exe in C:\SD\reforge-portable.
 Run "run.bat". This should now start the normal reForge requirements installations which may take quite a while  
 ![webui-install-3](https://github.com/user-attachments/assets/da8c3cb4-792c-46f7-82ee-5515eba77cf1)
 
+If everything goes well the webUI page will open after everything is complete.
+
 
 
 
