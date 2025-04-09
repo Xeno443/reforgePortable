@@ -23,21 +23,16 @@ Execute downloaded exe file and extract to C:\SD\reforge-portable\system\git
 
 ***
 
-Browse to https://www.python.org/downloads/release/python-31011/ and download "Windows embeddable package (64-bit)"
-![python-download-1](https://github.com/user-attachments/assets/732008ca-1d28-4320-8390-8e5ed4f7e028)
+Browse to https://github.com/winpython/winpython/releases/tag/6.1.20230527 and download "Winpython64-3.10.11.1dot.exe"
+![winpython-download-1](https://github.com/user-attachments/assets/555f9b0d-1a6f-4f19-9494-d51881ea253e)
 
-Extract downloaded zip file to C:\SD\reforge-portable\system\python  
-![python-install-1](https://github.com/user-attachments/assets/50813c74-9c37-48fb-911a-269fe4940197)
+Run the downloaded executable and extract to a temporary directory. Select all files from "winpython\WPy64-310111\python-3.10.11.amd64"
+![winpython-install-2](https://github.com/user-attachments/assets/79be1c7e-bf9c-4961-a0fa-347c5300e60d)
 
-Create subfolder C:\SD\reforge-portable\system\python\DLLs and move the following files from the python directory into this folder  
-![python-install-2](https://github.com/user-attachments/assets/eb2a19ce-8ae0-4350-bca4-27f639f9cdb1)
+and copy them to "C:\SD\reforge-portable\system\python"
+![winpython-install-3](https://github.com/user-attachments/assets/a00c87d6-71da-45e9-b7e3-11093a6fe633)
 
-Delete the file "python310._pth" from the C:\SD\reforge-portable\system\python directory  
-![python-install-4](https://github.com/user-attachments/assets/9c224be6-cd0f-42a5-97d6-4c031ee6f023)
-
-
-Browse to https://bootstrap.pypa.io/  (Github: https://github.com/pypa/get-pip) and download [get-pip.py](https://bootstrap.pypa.io/get-pip.py)  into C:\SD\reforge-portable\system\python 
-![python-install-3](https://github.com/user-attachments/assets/0c9b4587-ad45-4310-a497-4034dfb2f762)
+***
 
 Open the forge standalone 7zip and extract only the 3 bat files from the root into C:\SD\reforge-portable  
 ![webui-install-1](https://github.com/user-attachments/assets/13d732b1-767a-41bd-acde-8b49c04e8a8d)
