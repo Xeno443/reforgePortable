@@ -11,13 +11,16 @@ exisiting version but there were collisions as as both had different python modu
 During that I learned a lot of how this python pip thing works as it failed at various parts which later revealed that the original portable python zip version was somehow putting files in a different
 directory than some things, most noticably the wheel build process, expected them to be.
 
-### Download complete
+### Downloads
+I have put three versions up for testing, one minimal one that will download everything, one that has all the requirements already installed and is ready to go and one that includes updated settings
+and models for SDXL Illustrious/noobaiXL based models. Its made with reForge f1.7.0-v1.10.1RC-latest-2177-g7dce877a, the custom build includes some extensions like Forge Couple, tag autocomplete,
+LoraCTL and a few more.
 
-
-### Download base
-
+Seems Github does not allow for files of this size so I put them on my Mega:
+https://mega.nz/folder/w0p2WboI#zrAJMIxECeW0ER7v3X6eLg
 
 ### Step by step for the official portable zip version
+You should of course not simply trust a random stranger on the internet about anything, so if you don't want to use the prebuild packackes I also have documented step by step how I created these here:  
 [stepbystep-pythonportable.md](stepbystep-pythonportable.md)
 
 ### Step by step for the WinPython version
