@@ -18,7 +18,7 @@ directory than some things, most noticably the wheel build process, expected the
 
 
 ### Step by step for the official portable zip version
-
+[stepbystep-pythonportable.md](stepbystep-pythonportable.md)
 
 ### Step by step for the WinPython version
 
