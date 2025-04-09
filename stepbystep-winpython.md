@@ -4,6 +4,7 @@ This version uses the third-party WinPython portable version, which is recommend
 portable version. Maybe this provides more tools for installing additional extensions, and it has a negligibly larger footprint than the
 official version. There is an even larger WinPython version, but I don't know what the differences are so we will go with the smaller one.
 
+***
 ## Prerequisites
 Microsoft Visual C++ 2015 Redistributable  
 https://www.microsoft.com/en-us/download/details.aspx?id=48145  
@@ -11,12 +12,12 @@ Microsoft Visual C++ 2015-2022 Redistributable
 https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#visual-studio-2015-2017-2019-and-2022  
 
 ***
-
 ## Prepare folders
 1) Create folder C:\SD\reforge-portable
 2) Create subfolder C:\SD\reforge-portable\system
 3) Create subfolder C:\SD\reforge-portable\system\git
 4) Create subfolder C:\SD\reforge-portable\system\python
+
 ![folder-2](https://github.com/user-attachments/assets/9a902582-fad3-4221-8246-d4874aeb4b66)
 
 ***
@@ -42,7 +43,8 @@ and copy them to "C:\SD\reforge-portable\system\python"
 ## Get run scripts
 - Either download the full [Forge portable zip](https://github.com/lllyasviel/stable-diffusion-webui-forge?tab=readme-ov-file#installing-forge) 
 and extract only the 3 bat files from the root
-- or download them from my github here [runscipts](runscripts/)
+- or download them from my github here [/runscipts/](runscripts/)
+
 Copy these three files into C:\SD\reforge-portable  
 ![webui-install-1](https://github.com/user-attachments/assets/13d732b1-767a-41bd-acde-8b49c04e8a8d)
 
@@ -50,12 +52,13 @@ Copy these three files into C:\SD\reforge-portable
 ## Git clone reForge
 Open cmd.exe in C:\SD\reforge-portable.
 1) Run environment.bat
-2) Run "git clone https://github.com/Panchovix/stable-diffusion-webui-reForge webui"
+2) Run `git clone https://github.com/Panchovix/stable-diffusion-webui-reForge webui`
+
 ![webui-install-2](https://github.com/user-attachments/assets/cc1df314-fa1e-4323-b164-106be01e8220)
 
 ***
 ## First-run
-Run "run.bat". This should now start the normal reForge requirements installations which may take quite a while  
+Run `run.bat`. This should now start the normal reForge requirements installations which may take quite a while  
 ![webui-install-3](https://github.com/user-attachments/assets/da8c3cb4-792c-46f7-82ee-5515eba77cf1)
 
 If everything goes well the webUI page will open after everything is complete.
